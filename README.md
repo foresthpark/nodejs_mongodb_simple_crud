@@ -1,1 +1,3 @@
-# nodejs_mongodb_simple_crud
+# NodeJS and MongoDB Simple CRUD
+
+This is a simple backend app for teaching purposes
