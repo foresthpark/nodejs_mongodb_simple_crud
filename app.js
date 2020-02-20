@@ -31,5 +31,8 @@ mongoose.connect(
     console.log(mongoose.connection.readyState)
   });
 
+const db = mongoose.connection;
+db.on('Error', (err) => console.error(err));
+
 // Listen to the server
 app.listen(3000);
